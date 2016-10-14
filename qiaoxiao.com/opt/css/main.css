@@ -1,0 +1,232 @@
+@CHARSET "UTF-8";
+
+body,html {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #666;
+	height: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    overflow:hidden;
+    background:#3f3f3f;
+}
+ul,p,form {margin: 0;padding: 0;list-style: none}
+a:link{color:#666;text-decoration: none}
+a:visited{color:#666;text-decoration: none}
+a:hover {color:#398809}
+a:active{color:#666}
+.br {clear:both}
+.center{text-align: center}
+img {border: 0}
+
+.m-left{float:left;margin:0 0 0 0;width:220px;color:#979797}
+    .m-left .logo{
+        height:130px;
+        border-bottom:1px #323232 solid;
+        text-align:center;
+        font-size:20px;
+    }
+    .m-left .logo a{
+        width:220px;
+        height:130px;
+        display:block;
+        background:url(/opt/image/ico.png) no-repeat;
+        cursor:default;
+    }
+    .m-left ul.mode{border-bottom:1px #4c4c4c solid}
+    .m-left ul.mode li{
+        border-top:1px #4c4c4c solid;
+        border-bottom:1px #323232 solid;
+        cursor:pointer;
+        height:35px;
+        line-height:35px
+    }
+    .m-left ul.mode li.hover{background:url(/opt/image/PNG.png) 0 -35px no-repeat;color:#fff}
+    .m-left ul.mode li.click{background:url(/opt/image/PNG.png) 0 0 no-repeat;color:#444}
+    .m-left ul.mode li span{cursor:pointer;float:left;width:90px;display:block;height:35px;line-height:35px;padding:0 5px}
+    .m-left ul.mode li span.r{text-align:right;font-size:13px}
+
+.m-right{background:#eee;margin:0 0 0 220px;overflow:hidden}
+    .m-right .top{height:70px;background:#3f3f3f}
+        .m-right .top ul{float:right;height:30px;margin:40px 20px 0 0}
+            .m-right .top ul li{float:right;height:30px;line-height:30px}
+    .m-right .cont{background:#efefef;padding:5px}
+
+.m-bottom{text-align:center;color:#979797;height:20px;line-height:20px;font-size:12px}
+
+
+
+
+/*******************默认表格********************************/
+.table{
+    border-color: #d0d0d0;
+    border-style: solid;
+    color:#333;
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin:0 auto 10px auto;
+    width:98%;
+		font-size:13px
+}
+.table caption{background:#fcfcfc;padding:5px 0;height:40px;line-height:40px}
+.table caption ul{height:40px}
+.table caption ul li{height:40px;display:block;float:left;margin:0 5px}
+    .table caption input.str,
+    .table caption input.num{width:30px;height:28px;line-height:28px;padding:0;margin:0}
+    .table caption input.str{width:100px}
+    .table caption select{width:10em;margin:0 5px}
+.table td{
+    border-color: #d0d0d0;
+    border-style: solid;
+    line-height:42px;
+    color:#333;
+    margin:0;
+    padding:0;/*定义区间内容的边距*/
+    border-width: 1px 1px 0 0;
+    overflow:hidden;
+    text-align:center;
+		/*min-width:60px;*/
+		max-width:120px;
+}
+.table .table-ctrl a{margin:0 3px}
+.table span.txt{
+    cursor:default;
+    height:42px;
+		line-height:42px;
+    padding:0 2px;
+    display:block;_display:inline;_zoom:1;
+    overflow:hidden;white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis
+}
+
+.table span.up{background:url(/opt/image/up.gif) 50% 50% no-repeat}
+.table th {height:30px;color:#333;border-width: 1px 1px 0 0;border-style: solid;border-color: #d0d0d0}
+.table thead th{background:url(/opt/image/table_thead_bg.gif);color:#081F4B}
+.table tbody tr{background: #fbfbfb}
+.table tbody tr.hover{background:#f2f2f2}
+.table tbody tr.down{background:#F2EE84}
+.table tbody tr img{vertical-align: middle}
+/*.table tbody a.button{margin:0 2px}*/
+.table tfoot{line-height:40px}
+    .table tfoot tr.page{}
+    .table tfoot input.page{width:30px;margin:0 4px}
+    .table tfoot a{margin:4px}
+    .table tfoot span.pages{padding:4px}
+
+.tree{padding:0 5px}
+    .tree li{width:200px;line-height:30px}
+        .tree a{display:block;width:250px;height:30px;line-height:30px;text-indent:5px;overflow:hidden}
+            .tree li a img{
+                cursor:default;
+                display:block;float:left;
+                margin:5px -20px 0 0;
+                width:20px;
+                height:20px;
+                border:0
+            }
+            .tree li a span{
+                text-indent:5px;
+                display:block;
+                width:230px;
+                height:30px;
+                line-height:30px;
+                cursor:pointer;
+                margin:0 0 0 20px
+            }
+            .tree li a:hover{background:#fcfcfc}
+                .tree li a:hover span{text-decoration:underline}
+            .tree li a.down{background:#fff}
+        .tree ul{margin:0 0 0 10px}
+
+
+
+/*上传图片*/
+.upload div.img{border:1px #ccc solid;margin:20px auto 0 auto;text-align:center;width:200px;height:200px}
+.upload div.img img{width:200px;height:200px}
+
+
+
+/*分类*/
+.type{padding:0 0 0 20px;font-size:14px;width:100%}
+.type-none{padding:0}
+.type li{line-height:18px}
+.type li span{border:1px #ccc solid;margin:0 5px;vertical-align: middle}
+.type li a{cursor:default;padding:4px 0;display:block}
+.type li a.act{color:#000;background:#f2f2f2}
+
+/*upload*/
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	display: inline-block;_display:inline;_zoom:1;
+	cursor: pointer;
+	background: #00b7ee;
+	color: #fff;
+	text-align: center;
+  width:100px;height:30px;line-height:30px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.webuploader-pick-hover {
+	background: #00a2d4;
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+
+
+/*jqueryUI selectmenu*/
+ul.ui-tabs-nav li .ui-icon-refresh{float: left; margin: 0.4em 0.2em 0 0; cursor: pointer}
+/*jqueryui dialog最大最小化*/
+.ui-dialog .ui-dialog-icon{
+  width:20px;height:20px;
+  vertical-align:middle;
+  margin:1px 3px 1px 0
+}
+.ui-dialog .ui-dialog-titlebar{padding:0.4em 0.5em}
+.ui-dialog .ui-dialog-title{width:80%}
+.ui-dialog .ui-dialog-titlebar-maximize {
+	position: absolute;
+	right: .3em;
+	top: 50%;
+	width: 20px;
+	margin: -10px 23px 0 0;
+	padding: 1px;
+	height: 20px;
+}
+.ui-dialog .ui-dialog-titlebar-minimize{
+	position: absolute;
+	right: .3em;
+	top: 50%;
+	width: 20px;
+	margin: -10px 46px 0 0;
+	padding: 1px;
+	height: 20px;
+}
+.ui-dialog .ui-dialog-titlebar-minimize-2{
+	position: absolute;
+	right: .3em;
+	top: 50%;
+	width: 20px;
+	margin: -10px 23px 0 0;
+	padding: 1px;
+	height: 20px;
+}

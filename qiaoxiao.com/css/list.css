@@ -1,0 +1,328 @@
+.m-list{
+	width:1170px;
+	margin:50px auto 0 auto;
+
+}
+.m-list .main{
+	width:100%;
+
+}
+.m-list .left{
+	width:860px;
+	float:left;
+}
+.m-list .left .ltop{
+	width:860px;
+
+	float:left;
+}
+.m-list .left .ltop .left1{
+	width:860px;
+	height:198px;
+	/*float:left;*/
+	border-bottom-style:dotted;
+	border-bottom-color:rgb(228,228,228);
+	border-bottom-width:1.11667px;
+	overflow:hidden;
+	margin-top:19px;
+}
+
+.m-list .left .ltop .left1 .picture img{
+	width:250px;
+	height:160px;
+	margin-left:15px;
+	/*margin-right:20px;*/
+	float:left;
+	margin-top:19px;
+
+}
+.m-list .left .ltop .left1 .article{
+	width:565px;
+	height:158px;
+	margin-top:19px;
+	margin-right:5px;
+	float:right;
+	overflow:hidden;
+}
+.m-list .left .ltop .left1 .article .title{
+	width:378px;
+	height:25px;
+	float:left;
+}
+.m-list .left .ltop .left1 .article .title a{
+	font-family:"微软雅黑";
+	font-size:18px;
+	font-weight:700;
+	color:rgb(51,51,51);
+	width:378px;
+	line-height:27px;
+	white-space:nowrap;
+    overflow:hidden;
+	text-overflow:ellipsis;
+
+}
+.m-list .left .ltop .left1 .article .title a:hover {color:rgb(134,63,241);}
+
+.m-list .left .ltop .left1 .middle{
+	width:565px;
+	height:78px;
+	margin-top:50px;
+	overflow:hidden;
+
+}
+.m-list .left .ltop .left1 .span{
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:400;
+	color:rgb(102,102,102);
+	line-height:24px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+    overflow:hidden;
+}
+.m-list .middle a{
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:400;
+	color:rgb(134,63,241);
+	line-height:24px;
+}
+.m-list .more{
+	width:565px;
+	height:24px;
+	margin-top:-10px;
+
+}
+/*时间*/
+.m-list .time{
+	width:115px;
+	height:24px;
+	margin-right:20px;
+	float:left;
+}
+.m-list .time .img{
+	width:22px;
+	height:24px;
+	background-image:url('/image/g2.png');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-clip:border-box;
+	background-size:auto auto;
+	background-position:-484px 3px;
+	float:left;
+}
+.m-list .time1{
+	width:93px;
+	height:24px;
+	float:right;
+	font-family:"微软雅黑";
+	font-size:12px;
+	font-weight:400;
+	color:rgb(153,153,153);
+
+	line-height:24px;
+}
+/*look*/
+.m-list .look{
+	width:45px;
+	height:24px;
+	margin-right:20px;
+	float:left;
+}
+.m-list .look .img{
+  display:inline-block;_display:inline;_zoom:1;
+	width:22px;
+	height:24px;
+	background-image:url('/image/g2.png');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-clip:border-box;
+	background-size:auto auto;
+	background-position:-480px -28px;
+	float:left;
+}
+.m-list .look1{
+  display:inline-block;_display:inline;_zoom:1;
+	width:23px;
+	height:24px;
+	font-size:12px;
+	font-weight:400;
+	color:rgb(153,153,153);
+	line-height:24px;
+}
+/*网络改编*/
+.m-list .wangz{
+	width:71px;
+	height:24px;
+	margin-right:20px;
+
+	float:left;
+}
+.m-list .wangz .img{
+	width:22px;
+	height:24px;
+    background-image:url('/image/g2.png');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-clip:border-box;
+	background-size:auto auto;
+	background-position:-482px -65px;
+	float:left;
+}
+.m-list .wangz1{
+	width:49px;
+	height:24px;
+	float:right;
+	font-size:12px;
+	font-weight:400;
+	color:rgb(153,153,153);
+
+	line-height:24px;
+}
+/*吃土知八卦*/
+.m-list .eight{
+	width:83px;
+	height:24px;
+	margin-right:20px;
+
+	float:left;
+}
+.m-list .eight .img{
+	width:22px;
+	height:24px;
+	background-image:url('/image/g2.png');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-clip:border-box;
+	background-size:auto auto;
+	background-position:-480px -95px;
+	float:left;
+}
+.m-list .eight1{
+	width:61px;
+	height:24px;
+	float:right;
+	font-family:"微软雅黑";
+	font-size:12px;
+	font-weight:400;
+	color:rgb(153,153,153);
+
+	line-height:24px;
+}
+/*分享*/
+.m-list .shar{
+	width:48px;
+	height:24px;
+	margin-right:20px;
+
+	float:left;
+}
+.m-list .shar .img{
+	width:22px;
+	height:24px;
+	background:url(/image/g2.png) no-repeat -479px -132px;
+	float:left;
+}
+.m-list .shar1{
+	width:25px;
+	height:24px;
+	float:right;
+	font-family:"微软雅黑";
+	font-size:12px;
+	font-weight:400;
+	color:rgb(153,153,153);
+
+	line-height:24px;
+}
+.m-list .left .pagination{
+	width:860px;
+	height:72px;
+	text-align:center;
+}
+.m-list .left .pagination .paging{
+	height:28px;
+  display:inline-block;_display: inline;_zoom:1;
+  margin:30px 0 0 0;
+}
+.m-list .left .pagination .paging .first{
+	width:50px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(153,153,153);
+	font-weight:400;
+	line-height:28px;
+	text-align:center;
+}
+.m-list .left .pagination .paging .uppage{
+	width:64px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px 1px 1px 0;
+	border-color:rgb(153,153,153);
+	font-weight:400;
+	line-height:28px;
+	text-align:center;
+}
+
+
+.m-list .left .pagination .paging .page{
+  display:inline-block;_display:inline;_zoom:1;
+  width:40px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px 1px 1px 0;
+	border-color:rgb(153,153,153);
+	font-weight:400;
+	color:rgb(76,120,165);
+	line-height:28px;
+	text-align:center;
+  background: #fff;
+}
+.m-list .left .pagination .paging .page a{
+  display:block;
+  padding:0 5px;
+	font-weight:400;
+  color: #4C78A5;
+	line-height:28px;
+	text-align:center;
+}
+.m-list .left .pagination .paging .act{
+  color: #fff;
+  background: #863ff1;
+}
+.m-list .left .pagination .paging .act a{
+  color:#fff;
+}
+.m-list .left .pagination .paging .page a:hover{
+	color:black;
+}
+.m-list .left .pagination .paging .downpage{
+	width:64px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px 1px 1px 0;
+	border-color:rgb(153,153,153);
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:400;
+	line-height:28px;
+	text-align:center;
+}
+.m-list .left .pagination .paging .last{
+	width:50px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px 1px 1px 0;
+	border-color:rgb(153,153,153);
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:400;
+	line-height:28px;
+	text-align:center;
+}

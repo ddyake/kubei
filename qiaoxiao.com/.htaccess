@@ -1,0 +1,43 @@
+rewrite ^(.*)/article/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/article/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2&p=$3 last;
+
+rewrite ^(.*)/list/([0-9]+).html$ $1/act.php?act=list&tid=$2 last;
+rewrite ^(.*)/list/([0-9]+)_([0-9]+).html$ $1/act.php?act=list&tid=$2&p=$3 last;
+
+rewrite ^(.*)/plist/([0-9]+).html$ $1/act.php?act=plist&tid=$2 last;
+rewrite ^(.*)/plist/([0-9]+)_([0-9]+).html$ $1/act.php?act=plist&tid=$2&p=$3 last;
+
+rewrite ^(.*)/picture/([0-9]+).html$ $1/act.php?act=picture&aid=$2 last;
+rewrite ^(.*)/picture/([0-9]+)_([0-9]+).html$ $1/act.php?act=picture&aid=$2&p=$3 last;
+
+
+#以下是旧网站死链转换
+rewrite ^(.*)/mingxing/[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/mingxing/[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+
+rewrite ^(.*)/bagua/[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/bagua/[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+
+rewrite ^(.*)/meitu/[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/meitu/[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+
+rewrite ^(.*)/yangsheng/[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/yangsheng/[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+
+rewrite ^(.*)/zongyi/[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/zongyi/[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+
+rewrite ^(.*)/meirong/[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/meirong/[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+
+rewrite ^(.*)/dianshi/[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/dianshi/[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+
+rewrite ^(.*)/dianying/[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/dianying/[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+
+rewrite ^(.*)/jijin/[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/jijin/[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+
+rewrite ^(.*)/news/show-[0-9]+/([0-9]+).html$ $1/act.php?act=article&aid=$2 last;
+rewrite ^(.*)/news/show-[0-9]+/([0-9]+)_([0-9]+).html$ $1/act.php?act=article&aid=$2 last;

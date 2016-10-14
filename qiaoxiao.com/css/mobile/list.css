@@ -1,0 +1,130 @@
+.m-articles{
+  flex-direction: column;
+  /*height:100%;*/
+}
+
+.m-articles .today{
+  height:52px;
+  background:url(/image/mobile/top-1.png);
+  justify-content: center;
+}
+.m-articles .today .middle{
+  background:url(/image/mobile/top.png);
+  width:261px;
+  height:52px;
+  /*color：rgb(243,74,78);*/
+
+}
+.m-articles .today .middle p{
+    color:rgb(134,64,241);
+    text-align:center;
+    padding:20px;
+    font-size:1.4em;
+}
+.m-articles .t-list{
+  flex-direction: column;
+  padding:10px;
+
+}
+.m-articles .t-list a{
+  flex-direction: row;
+  justify-content: center;
+  height:95px;
+  padding-bottom:10px;
+  padding-top:10px;
+  border-bottom:1px #dedede solid;
+}
+.m-articles .t-list a .left,
+.m-articles .t-list a .left img{
+  width:130px;
+  height:95px;
+}
+
+
+.m-articles .t-list a .right{
+  flex-direction: column;
+  display:block;
+  height:95px;
+  /*justify-content: center;
+  align-items:center;
+  align-content:center;*/
+  /*border-bottom: 1px #dedede solid;*/
+
+}
+.m-articles .t-list a .right p{
+  align-items: center;
+  color:black;
+  font-size:1em;
+  height:60px;
+  line-height:20px;
+  margin:5px 0;
+  padding:0 10px
+  /*border:1px solid red;*/
+  /*padding:10px;*/
+
+}
+.m-articles .t-list a .right .foot{
+  flex-direction: row;
+  justify-content:flex-end;
+  padding:0 0 0 10px;
+  margin:15px 0 0 0;
+  height:15px;
+  line-height:15px;
+
+}
+.m-articles .t-list a .right .foot .first{
+  color:black;
+  color:#626262;
+  font-size:0.7em;
+  margin-right:5px;
+
+}
+.m-articles .t-list a .right .foot .last{
+  color:black;
+  color:#626262;
+  font-size:0.7em;
+  line-height:15px
+}
+.m-articles .t-list a .right .foot .last img{
+    width:20px;height:10px;
+  margin:0 3px 0 0
+}
+
+.m-articles .t-list .t-more{
+  padding:10px 0 0 0;
+  text-align: center;
+}
+.m-articles .t-list .t-more a{
+  color:rgb(134,64,241);
+}
+.m-articles .dd{
+  height:32px;
+  background:url(/image/mobile/top-1.png);
+}
+.m-articles .advert{
+  flex-direction: row;
+  background-color:white;
+  height:103px;
+}
+.m-articles .advert .left{
+  flex-direction: row;
+
+}
+.m-articles .advert .left .left1{
+  flex-direction: row;
+
+}
+.m-articles .advert .left .l1 img{
+  height:83px;
+  padding:10px;
+}
+.m-articles .advert .left .l2{
+  font-size:1.5em;
+  font-width:20px;
+  padding:25px;
+}
+.m-articles .advert .right{
+  background:url(/image/mobile/7.png);
+  align-content: flex-end;
+  height:93px;
+}

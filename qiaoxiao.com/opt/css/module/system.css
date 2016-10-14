@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+.b-types{height:100%}
+ .b-types .b-types-left{overflow:scroll;width:200px;padding:0;float:left;border:1px #ccc solid}
+    .b-types .b-types-right{overflow:hidden;float:right;padding:0;border:1px #fff solid}
+        .b-types .b-types-right div#b-types-add li,
+        .b-types .b-types-right div#b-types-mend li,
+        .b-types .b-types-right div#b-types-del li{height:40px;line-height:40px}
+        .b-types .b-types-right input[type=text]{margin-right:10px;height:25px;width:200px}
+    .b-types .b-types-tree{
+        display:none;
+        position:absolute;
+        overflow:scroll;
+        width:270px;
+        height:200px;
+        background:#fff;
+        border:1px #ccc solid;
+        z-index:999
+    }
+
+
+
+#SysAuthority li{height:30px;line-height:30px}
+#SysAuthority .next{padding:0 0 0 10px}
+
+#SysInfo li{display:block}
+#SysInfo li span{display:block;float:left;width:200px;text-align:right}
+#SysInfo fieldset{margin:20px}
+
+/*后台模块*/
+.mod-module{height:100%}
+.mod-module .b-types-left{overflow:scroll;width:200px;padding:0;float:left;border:1px #ccc solid}
+   .mod-module .b-types-right{overflow:hidden;float:right;padding:0;border:1px #fff solid}
+       .mod-module .b-types-right div#module-add li,
+       .mod-module .b-types-right div#module-med li,
+       .mod-module .b-types-right div#module-del li{height:40px;line-height:40px}
+       .mod-module .b-types-right input[type=text]{margin-right:10px;height:25px;width:200px}
+   .mod-module .b-types-tree{
+       display:none;
+       position:absolute;
+       overflow:scroll;
+       width:270px;
+       height:200px;
+       background:#fff;
+       border:1px #ccc solid;
+       z-index:999
+   }

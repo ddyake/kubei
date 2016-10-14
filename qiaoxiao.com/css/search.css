@@ -1,0 +1,161 @@
+.search{
+  margin:0 auto;
+  width:100%;
+}
+.search .header{
+    margin-bottom: 13px;
+    padding-left: 20px;
+    width: 1005px;
+    overflow: hidden;
+    zoom: 1;
+}
+.search .header .logo{
+    height: 50px;
+    width: 160px;
+    float: left;
+    margin: 28px 18px 0 12px;
+    overflow: hidden;
+    display: inline;
+    position: relative;
+    z-index: 3;
+}
+.search .header .logo a img{
+  width:155px;
+  height:50px;
+}
+.search .header .sear{
+    margin-top:45px;
+    position: relative;
+    z-index: 297;
+    float:left;
+}
+.search .header .sear input{
+  width:495px;
+  height:30px;
+  float:left;
+}
+.search .header .sear .ss{
+  float:right;
+  margin-left:10px;
+}
+.search .header .sear .ss .searchs{
+    width: 97px;
+    height: 32px;
+
+    margin-right: 10px;
+    display: inline-block;
+    background-color: #3382f8;
+    text-align: center;
+    z-index: 0;
+    vertical-align: top;
+    border: solid 1px #2d78f4;
+    float: left;
+}
+.search .header .sear .ss .searchs a{
+    line-height:32px;
+    color: #ffffff;
+
+}
+.search .header .sear .ss .searchall{
+    width: 97px;
+    height: 32px;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #999999;
+    border: solid 1px #999;
+    float: right;
+}
+.search .header .sear .ss .searchall a{
+    line-height:32px;
+    color: #999999;
+    text-align:center;
+    margin-left:25px;
+
+}
+.search .result{
+    display: block;
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 18px;
+    margin-left:210px;
+}
+
+.search .result-list{
+  width: 540px;
+  margin: 0 130px 10px 210px;
+}
+
+.search .result-list a .list1{
+  width:540px;
+  height:101px;
+
+}
+.search .result-list a .list1 .tit{
+  height:18px;
+  color: #00c;
+  text-decoration: underline;
+    cursor: auto;
+}
+/*.search .result-list a .list1 .tit:hover{
+  color:#606;
+}*/
+.search .result-list a .list1 .count{
+  height:80px;
+}
+.search .result-list a .list1 .count .image img{
+  width:106px;
+  height:80px;
+  float:left;
+}
+.search .result-list a .list1 .count .right{
+  float:right;
+  width:420px;
+  height:73px;
+  overflow:hidden;
+}
+.search .result-list a .list1 .count .right .article{
+  height:54px;
+  font-size:13px;
+  overflow:hidden;
+  line-height:18px;
+}
+
+.search .result-list a .list1 .count .right .address{
+  color: #008000;
+      font-size: 13px;
+}
+.search .page{
+  width:1200px;
+  height:64px;
+  margin-top:50px;
+  display:block;
+
+  margin-left:210px;
+}
+
+.search .page li{
+  display:block;
+  height:37px;
+  width:67px;
+  border:1px solid #e7ecf0;
+  float:left;
+  margin-right:10px;
+  line-height:38px;
+}
+.search .page li a{
+  color: #00c;
+}
+.search .page .pages{
+  height:37px;
+  width:37px;
+}
+.search .page .pages a{
+  margin-left:15px;
+}
+.search .ngb{
+  border:0;
+  color:#000;
+
+}

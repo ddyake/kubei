@@ -1,0 +1,15 @@
+.mod-ad-channel{
+  padding:20px 0
+}
+.mod-ad-channel ul{
+  line-height:40px;
+}
+.mod-ad-channel ul li{height:40px}
+.mod-ad-channel ul li .lab{
+  width:100px;
+  display:inline-block;
+  height:40px;line-height:40px;
+  text-align:right
+}
+
+.mod-ad-channel ul li input{width:350px}

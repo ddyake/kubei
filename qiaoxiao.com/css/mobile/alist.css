@@ -1,0 +1,114 @@
+.m-articles{
+  flex-direction: column;
+  /*height:100%;*/
+}
+.m-articles .picture{
+  height:130px;
+
+  background:url(/image/mobile/3.png) no-repeat center center;
+
+}
+.m-articles .today{
+  height:52px;
+  background:url(/image/mobile/top-1.png);
+  justify-content: center;
+}
+.m-articles .today .middle{
+  background:url(/image/mobile/top.png);
+  width:261px;
+  height:52px;
+  /*color：rgb(243,74,78);*/
+
+}
+.m-articles .today .middle p{
+    color:rgb(243,74,78);
+    text-align:center;
+    padding:20px;
+    font-size:1.4em;
+}
+.m-articles .t-list{
+  flex-direction: column;
+  padding:10px;
+
+}
+.m-articles .t-list .lists{
+  flex-direction: column;
+  height:120px;
+  padding:10px;
+  display:block;
+}
+.m-articles .t-list .lists .top{
+  height:80px;
+  flex-direction:row;
+
+}
+.m-articles .t-list .lists .top img{
+  height:80px;
+  width:120px;
+}
+.m-articles .t-list .lists .top p{
+  align-items: center;
+  color:black;
+  font-size:1em;
+  padding:20px;
+
+}
+.m-articles .t-list .lists .foot{
+  flex-direction: row;
+  background-color:white;
+  justify-content: space-between;
+  align-items:center;
+  align-content:center;
+  border-bottom: 1px #dedede solid;
+  height:20px;line-height:20px;
+  padding:10px 0;
+}
+.m-articles .t-list .lists .foot li{
+  color:black;
+  flex-grow:1;
+  align-self:center;
+  text-align:center;
+  color:#dedede
+}
+.m-articles .t-list .lists .foot li.first{text-align:left}
+.m-articles .t-list .lists .foot li.last{text-align: right;}
+
+.m-articles .t-list .t-more{
+  padding:10px 0 0 0;
+  text-align: center;
+}
+.m-articles .t-list .t-more a{
+  color:rgb(241,123,123);
+}
+.m-articles .dd{
+  height:32px;
+  background:url(/image/mobile/top-1.png);
+
+}
+.m-articles .advert{
+  flex-direction: row;
+  background-color:white;
+  height:103px;
+}
+.m-articles .advert .left{
+  flex-direction: row;
+
+}
+.m-articles .advert .left .left1{
+  flex-direction: row;
+
+}
+.m-articles .advert .left .l1 img{
+  height:83px;
+  padding:10px;
+}
+.m-articles .advert .left .l2{
+  font-size:1.5em;
+  font-width:20px;
+  padding:25px;
+}
+.m-articles .advert .right{
+  background:url(/image/mobile/7.png);
+  align-content: flex-end;
+  height:93px;
+}

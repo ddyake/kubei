@@ -1,0 +1,252 @@
+.m-picture{
+	width:1180px;
+	margin:50px auto 0 auto;
+}
+.m-picture .bigleft{
+	width:860px;
+	float:left;
+	margin-top:12px;
+  border:1px solid #e4e4e4;
+
+}
+.m-picture .bigleft h3{
+    font-size: 24px;
+    text-align: left;
+    padding: 0 19px;
+    height: 70px;
+    line-height: 70px;
+    color:#000;
+}
+.m-picture .bigleft .picjs{
+  height: 20px;
+  line-height: 20px;
+  padding: 0 19px;
+}
+.m-picture .bigleft .picjs .time{
+  width:156px;
+  height:20px;
+  float:left;
+}
+.m-picture .bigleft .picjs .time .image{
+  background:url('/image/g2.png') -484px 1px no-repeat;
+  width:20px;
+  height:20px;
+  float:left;
+}
+.m-picture .bigleft .picjs .time  p{
+  display: inline-block;
+  color: #999;
+  font-size: 12px;
+}
+.m-picture .bigleft .picjs .shar{
+	width:68px;
+	height:20px;
+	float:right;
+}
+.m-picture .bigleft .picjs .shar div{
+	background:url('/image/g2.png') -480px -135px no-repeat;
+	width:20px;
+  height:20px;
+  float:left;
+}
+.m-picture .bigleft .picjs .shar a{
+		line-height: 20px;
+    display: block;
+		color: #999;
+		font-size: 12px;
+}
+.m-picture .bigleft .photo{
+	position: relative;
+  overflow: hidden;
+  width: 860px;
+  text-align: center;
+  height: 420px;
+
+}
+.m-picture .bigleft .photo a .left{
+	width:80px;
+	height:420px;
+
+	margin-left:10px;
+	margin-right:40px;
+
+}
+.m-picture .bigleft .photo a .left{
+	width:80px;
+	height:120px;
+	margin-top:150px;
+	background:url('/image/prevpic.png');
+}
+.m-picture .bigleft .photo a .left:hover{
+	background:url('/image/prevpic-on.png');
+}
+.m-picture .bigleft .photo .view{
+	width:600px;
+	height:420px;
+
+
+	float:left;
+
+}
+.m-picture .bigleft .photo .view a img{
+	width:600px;
+	height:399px;
+	margin-top:10px;
+	/*float:left;*/
+}
+
+.m-picture .bigleft .photo a .right{
+	width:80px;
+	height:420px;
+	margin-left:40px;
+	margin-right:10px;
+}
+.m-picture .bigleft .photo a .right{
+	width:80px;
+	height:120px;
+	margin-top:150px;
+	background:url('/image/nextpic.png');
+}
+.m-picture .bigleft .page{
+	height:45px;
+	width:860px;
+
+
+}
+.m-picture .bigleft .page .pages{
+	width:130px;
+	height:46px;
+	background:url('/image/global.png') 0 -203px;
+	margin-left:10px;
+	float:left;
+}
+.m-picture .bigleft .page .pages em{
+	color:#863ff1;
+	line-height:45px;
+	font-size:2.3em;
+	margin-left:20px;
+	font-weight:600;
+}
+.m-picture .bigleft .page .pages i{
+	line-height:45px;
+	font-size:2em;
+	margin-left:5px;
+	color:#e4e4e7;
+
+}
+.m-picture .bigleft .page .tit{
+	width:700px;
+	height:21px;
+	padding-left:10px;
+	float:left;
+
+}
+.m-picture .bigleft .bottom{
+	height:54px;
+	background-color:#f2f2f2;
+	margin-top:20px;
+}
+.m-picture .bigleft .bottom li{
+	color:#863ff1;
+	float:left;
+	line-height:54px;
+	margin-left:30px;
+}
+.m-picture .bigleft .bottom li a{
+	color:#3333;
+}
+.m-picture .bigleft .bottom .up{
+	margin-left:100px;
+}
+.m-picture .bigleft .page .pages .mother{
+	font-size:1.8em;
+	color:#666;
+	margin-left:5px;
+}
+.m-picture .about{
+	width:860px;
+	float:left;
+
+	margin-top:25px;
+
+
+}
+.m-picture .about .title{
+	height:76px;
+}
+.m-picture .about .title span{
+	height:23px;
+	border-left:8px solid #863ff1;
+	font-size:2em;
+	color:#000;
+	font-weight:500;
+}
+.m-picture .about .title .more{
+	float:right;
+	height:76px;
+	width:114px;
+
+
+}
+.m-picture .about .title .more a{
+	float:right;
+	height:76px;
+	width:114px;
+
+
+}
+.m-picture .about .title .more a .search{
+	line-height: 50px;
+	float:left;
+}
+.m-picture .about .title .more a .img{
+	width:20px;
+	height:20px;
+	margin-top:13px;
+	margin-right:8px;
+	float:right;
+	background-image:url('/image/global.png');
+	background-position: -17px -41px;
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-clip:border-box;
+	background-size:auto auto;
+	cursor:pointer;
+}
+.m-picture .about .title .more a .img:hover{
+	background-position: -37px -41px;
+}
+.m-picture .about .pictures{
+	width:860px;
+	float:left;
+}
+.m-picture .about .pictures li {
+	width:210px;
+	height:315px;
+	margin:10px 5px 10px 0;
+	float:left;
+	overflow: hidden;
+}
+.m-picture .about .pictures li  img{
+	width:210px;
+	height:315px;
+}
+.m-picture .about .pictures li span{
+		width: 190px;
+    padding: 0 10px;
+    line-height: 35px;
+    height: 35px;
+    display: block;
+    position: absolute;
+		color: #fff;
+    text-align: center;
+    z-index: 100;
+		background-color:#000;
+		opacity:0.7;
+		margin:-40px 0 0 0;
+}
+.m-picture .bigright{
+  width:298px;
+  margin-top:-680px;
+  float:right;
+}

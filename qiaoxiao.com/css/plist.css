@@ -1,0 +1,144 @@
+.p-list{
+	width:1212px;
+
+	overflow:hidden;
+	margin:50px auto 0 auto;
+}
+.p-list ul{
+	width:1212px;
+	/*height:1400px;*/
+	float:left;
+}
+.p-list ul li{
+	float:left;
+	padding:10px 10px;
+	width:210px;
+	height:210px;
+
+}
+.p-list ul li img{
+	display:block;
+	width:210px;
+	height:160px;
+}
+.p-list ul li span{
+	display:block;
+	width:200px;
+	height:40px;
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(235,235,235);
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:400px;
+	color:rgb(51,51,51);
+	line-height:38px;
+	text-align:center;
+	padding:0 5px 0 5px;
+	overflow:hidden;
+
+}
+.p-list ul li span:hover{
+	color:white;
+	font-width:800px;
+	background-color:black;
+}
+.p-list .pagination{
+	width:1212px;
+	height:80px;
+	text-align:center;
+	display:inline-block;_display: inline;_zoom:1;
+
+}
+.p-list .pagination .paging{
+	height:50px;
+  display:inline-block;_display: inline;_zoom:1;
+  margin:30px 0 0 0;
+	margin-left:100px;
+	text-align:center;
+
+
+}
+.p-list .pagination .paging .first{
+	width:50px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(153,153,153);
+	font-weight:400;
+	line-height:28px;
+	text-align:center;
+}
+.p-list .pagination .paging .uppage{
+	width:64px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px 1px 1px 0;
+	border-color:rgb(153,153,153);
+	font-weight:400;
+	line-height:28px;
+	text-align:center;
+}
+
+
+.p-list .pagination .paging .page{
+  display:inline-block;_display:inline;_zoom:1;
+  width:40px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px 1px 1px 0;
+	border-color:rgb(153,153,153);
+	font-weight:400;
+	color:rgb(76,120,165);
+	line-height:28px;
+	text-align:center;
+  background: #fff;
+	float:left;
+}
+.p-list .pagination .paging .page a{
+  display:block;
+  padding:0 5px;
+	font-weight:400;
+  color: #4C78A5;
+	line-height:28px;
+	text-align:center;
+}
+.p-list .pagination .paging .act{
+  color: #fff;
+  background: #863ff1;
+}
+.p-list .pagination .paging .act a{
+  color:#fff;
+}
+.p-list  .pagination .paging .page a:hover{
+	color:black;
+}
+.p-list .pagination .paging .downpage{
+	width:64px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px 1px 1px 0;
+	border-color:rgb(153,153,153);
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:400;
+	line-height:28px;
+	text-align:center;
+}
+.p-list .pagination .paging .last{
+	width:50px;
+	height:28px;
+	float:left;
+	border-style:solid;
+	border-width:1px 1px 1px 0;
+	border-color:rgb(153,153,153);
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:400;
+	line-height:28px;
+	text-align:center;
+}

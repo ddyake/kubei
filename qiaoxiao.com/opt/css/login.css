@@ -1,0 +1,10 @@
+.b-login{}
+.b-login ul{
+	width:300px;
+	margin:0 auto;
+	padding:10px
+}
+.b-login ul li{height:22px;line-height:22px;padding:5px 0}
+.b-login ul li input{height:20px;line-height:20px}
+.b-login ul li span{color:red}
+.b-login ul li.sfx img{vertical-align:middle}

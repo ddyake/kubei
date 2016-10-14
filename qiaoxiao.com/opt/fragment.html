@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>片段</title>
+</head>
+<body>
+
+<div class="b-login">
+    <form>
+	<ul>
+        <li class="usr"><input placeholder="用户名" name="usr" type="text" /><span></span></li>
+        <li class="pwd"><input placeholder="密码" name="pwd" value="" type="password" /><span></span></li>
+
+        <li class="sfx"><input maxlength="4" placeholder="验证码" name="sfx" type="text" />
+                <img href="/act.php?act=verify&n=4&w=50&h=22&s=optLoginSFX" /><span></span>
+                <a href="javascript:;">换一张</a><input type="submit" style="display:none" />
+        </li>
+	</ul>
+    </form>
+</div>
+
+<!--分类管理-->
+<div class="b-types">
+    <div class="b-types-tree"></div>
+    <div class="b-types-left"></div>
+    <div class="b-types-right">
+        <div>
+            <ul>
+                <li><a href="#b-types-add">添加</a></li>
+                <li><a href="#b-types-mend">修改</a></li>
+                <li><a href="#b-types-del">删除</a></li>
+            </ul>
+            <div id="b-types-add">
+                <form>
+                    <ul>
+                        <li>上级类别：<input type="text" /><a>顶级类</a></li>
+                        <li>分类名称：<input type="text" />[必选]</li>
+                        <li>分类类型：<input type="text" />[可选]</li>
+                        <li>内容描述：<input type="text" />[可选]</li>
+                        <li><button>添 加</button></li>
+                    </ul>
+                </form>
+            </div>
+            <div id="b-types-mend">
+                <form>
+                <ul>
+                    <li>当前编号：<label></label></li>
+                    <li>上级类别：<input type="text" /><a>顶级类</a></li>
+                    <li>分类名称：<input type="text" />[必选]</li>
+                    <li>分类类型：<input type="text" />[可选]</li>
+                    <li>内容描述：<input type="text" />[可选]</li>
+                    <li><button>修 改</button></li>
+                </ul>
+                </form>
+            </div>
+            <div id="b-types-del">
+                <form>
+                <ul>
+                    <li>分类名称：<input type="text" /></li>
+                    <li><a>删 除</a></li>
+                </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="br"></div>
+</div>
+
+
+<!--基础表格-->
+<table class="table">
+    <caption>
+        <ul>
+            <li><select><option selected="selected">查询字段</option></select></li>
+            <li>
+                <select>
+                    <option value="0" selected="selected">查询条件</option>
+                    <option value=">">大于</option>
+                    <option value="<">小于</option>
+                    <option value="=">等于</option>
+                    <option value="<>">不等于</option>
+                    <option value="like">模糊查询</option>
+                </select>
+            </li>
+            <li><input class="str" placeholder="输入查询内容" /></li>
+            <li>显示</li>
+            <li><input class="num" placeholder="10" /></li>
+            <li>条内容</li>
+            <li><a title="查询" class="button">查询</a></li>
+        </ul>
+    </caption>
+    <thead><tr></tr></thead><tbody></tbody>
+    <tfoot>
+        <tr class="page">
+            <th><input type="button" value="反选" /></th>
+            <th class="ctrl-btn">
+                <a class="button">上一页</a>
+                <a class="button">下一页</a>
+                <span class="pages"></span>
+                <input type="text" class="page">
+                <a class="button"><span><label>跳转</label></span></a>
+            </th>
+        </tr>
+        <tr><th>排序说明：前台显示,数值越高排名越前。</th></tr>
+    </tfoot>
+</table>
+
+
+<!--左树形，右内容模块-->
+<div class="mod-links">
+    <div class="mod-links-left">
+
+    </div>
+    <div class="mod-links-right">
+
+    </div>
+</div>
+
+<!--链接模块 增删减-->
+<ul class="mod-links-add-edit">
+    <li class="tit">
+        <label class="txt">链接标题：</label>
+        <input placeholder="字数限制：30个字符以内" type="text" />
+        <span></span>
+    </li>
+    <li class="href">
+        <label class="txt">链接地址：</label>
+        <input placeholder="字数限制：100个字符以内" type="text" />
+        <span></span>
+    </li>
+    <li class="image">
+        <label class="txt">上传图片：</label>
+        <input type="text" placeholder="网络图片,直接写地址，http://www.xxx.com/xxx.jpg" />
+        <img />
+        <a>上传图片</a>
+        <a class="rest">重新上传</a>
+        <span></span>
+    </li>
+    <li class="target">
+        <label class="txt">跳转方式：</label>
+        <select>
+            <option selected="selected" value="">默认跳转</option>
+            <option value="_blank">新窗口</option>
+            <option value="_self">当前窗口</option>
+            <option value="_parent">父窗口</option>
+            <option value="_top">无框窗口</option>
+        </select>
+    </li>
+    <li class="color">
+        <label class="txt">标题颜色：</label>
+        <select>
+            <option selected="selected" value="">默认颜色</option>
+            <option value="red">红色</option>
+            <option value="green">绿色</option>
+            <option value="yellow">黄色</option>
+            <option value="black">黑色</option>
+        </select>
+    </li>
+    <li class="cont">
+      <label class="txt">相关简介：</label>
+      <textarea placeholder="字数限制：200个字符以内"></textarea>
+    </li>
+</ul>
+
+<!--文章模块 增删减-->
+<div class="mod-article">
+  <ul class="list">
+    <li class="tit"><label class="lab">文章标题：</label><input type="text" /></li>
+    <li class="tid"><label class="lab">所属栏目：</label><select></select></li>
+    <li class="source"><label class="lab">文章来源：</label><input type="text" value="网络改编" /></li>
+    <li class="editor"><label class="lab">文章编辑：</label><input type="text" value="吃土知八卦" /></li>
+    <li class="tag"><label class="lab">文章标签：</label><input type="text" placeholder="多个使用,隔开" /></li>
+    <li class="time-click">
+      <label class="lab">创建时间：</label><input readonly="readonly" type="text" />
+      <label class="lab">点击总数：</label><input type="text" value="1" />
+    </li>
+    <li class="image">
+      <label class="lab">缩略图：</label>
+      <img alt="宽高比25:16" /><a>上传图片</a><span></span>
+      <label title="自动提取图片"><input checked="checked" type="checkbox" />自动提取</label>
+    </li>
+    <li class="note-check">
+      <label class="lab">内容简介：</label>
+      <label><input checked="checked" type="checkbox" />自动获取</label>
+    </li>
+    <li class="note">
+      <textarea placeholder="内容简介字数100字以内"></textarea>
+    </li>
+    <li class="tits"><label class="lab">分页标题：</label>当前页数(<span>1</span>)</li>
+    <li class="tits-list">
+      <ul>
+
+      </ul>
+    </li>
+  </ul>
+  <div class="article">
+    <div class="txt"><label class="lab">文章内容：</label></div>
+    <script name="content" type="text/plain" class="ueeditor"></script>
+    <div class="btn"><a>保存文章</a></div>
+  </div>
+</div>
+
+<!-- 图片模块 增删减-->
+<div class="mod-cont-image">
+   <ul class="ctrl">
+    <li class="tit"><label class="lab">图片标题：</label><input type="text"></li>
+    <li class="tag"><label class="lab">图片标签：</label><input type="text"></li>
+    <li class="tid"><label class="lab">所属栏目：</label><select></select></li>
+    <li class="source"><label class="lab">文章来源：</label><input type="text" value="网络改编" /></li>
+    <li class="editor"><label class="lab">文章编辑：</label><input type="text" value="吃土知八卦" /></li>
+    <li class="time"><label class="lab">创建时间：</label><input readonly="readonly" type="text" /></li>
+    <li class="click"><label class="lab">点击总数：</label><input type="text" value="1" /></li>
+    <li class="image">
+      <label class="lab">缩略图：</label><label title="自动提取图片"><input checked="checked" type="checkbox" />自动提取</label>
+    </li>
+    <li class="image-btn">
+      <label class="lab"></label><img title="宽高比25:16" alt="25:16" /><a>上传图片</a><span></span>
+    </li>
+    <li class="note">
+      <label class="lab">内容简介：</label>
+      <textarea placeholder="内容简介字数100字以内"></textarea>
+    </li>
+    <li class="uploads">
+      <a class="select">选择图片</a>
+      <a class="pause webuploader-pick">暂停上传</a>
+    </li>
+    <li class="save">
+      <a>保存文章</a>
+      <a>清空所有图片</a>
+    </li>
+  </ul>
+  <div class="list">
+    <div class="tit">图片列表(网页图片显示顺数按当前排列顺序)</div>
+    <ul class="images"></ul>
+  </div>
+  <div class="br"></div>
+</div>
+
+
+
+
+<!--用户模块-->
+<div class="mod-user">
+  <div class="mod-user-tabs">
+    <ul class="mod-user-tab">
+      <li><a href="modUserLoad">安全信息</a></li>
+      <li><a href="modUserBasic">其他信息</a></li>
+    </ul>
+    <div class="mod-user-login">
+      <fieldset>
+        <legend>登陆用户名</legend>
+        <ul>
+          <li><label class="lab">邮箱</label>：<input class="email" /></li>
+          <li><label class="lab">手机</label>：<input class="phone" /></li>
+          <li><label class="lab">昵称</label>：<input class="nick" /></li>
+          <li><label class="lab">余额</label>：<span class="over"></span></li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>审核账户</legend>
+        <ul>
+          <li>
+            <label><input class="isPhone" type="checkbox" />手机号通过审核</label>
+            <label><input class="isEmail" type="checkbox" />邮箱号通过审核</label>
+            <label><input class="isId" type="checkbox" />身份证通过审核</label>
+            <label><input class="isDisabled" type="checkbox" />禁用此账号</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>密码设置</legend>
+        <ul>
+          <li>
+            <label class="lab">设置密码</label>：
+            <input class="pwd" readonly="readonly" type="text" />
+            <a class="btn" href="javascript:;">解锁</a>
+          </li>
+          <li>
+            <label class="lab">设置安全密码</label>：
+            <input class="pwdd" readonly="readonly" type="text" />
+            <a class="btn" href="javascript:;">解锁</a>
+          </li>
+        </ul>
+      </fieldset>
+    </div>
+    <div class="mod-user-detail">
+      <ul>
+        <li>
+          <label class="lab">账号创建时间</label>：<span class="ctime"></span>
+          <label class="lab">最近登录时间</label>：<span class="times"></span>
+        </li>
+        <li>
+          <label class="lab">账号创建IP</label>：<span class="rip"></span>
+          <label class="lab">最近登陆IP</label>：<span class="ip"></span>
+        </li>
+        <li><label class="lab">姓　　名</label>：<input type="text" class="name" /></li>
+        <li><label class="lab">性　　别</label>：
+          <label><input value='0' name="sex" type="radio" />男</label>&nbsp;
+          <label><input value='1' name="sex" type="radio" />女</label>
+        </li>
+        <li><label class="lab">身份证号</label>：<input type="text" class="idc" /></li>
+        <li><label class="lab">网站积分</label>：<input type="text" class="gold" /></li>
+        <li><label class="lab">Q Q号码</label>：<input type="text" class="qq" /></li>
+        <li><label class="lab">联系地址</label>：<input type="text" class="address" /></li>
+      </ul>
+      <fieldset>
+        <legend>用户权限</legend>
+        <ul>
+          <li>
+            <label><input class="edit" type="checkbox" />网站管理员</label>
+            <label><input class="admin" type="checkbox" />系统管理员</label>
+          </li>
+        </ul>
+      </fieldset>
+    </div>
+  </div>
+</div>
+
+
+<!--模块控制-->
+<div class="mod-module">
+    <div class="b-types-tree"></div>
+    <div class="b-types-left"></div>
+    <div class="b-types-right">
+        <div>
+            <ul>
+                <li><a href="#module-add">添加</a></li>
+                <li><a href="#module-med">修改</a></li>
+                <li><a href="#module-del">删除</a></li>
+            </ul>
+            <div id="module-add">
+                <form>
+                    <ul>
+                        <li>上级类别：<input readonly="readonly" type="text" />(左侧点击选择)<a>设为顶级类</a></li>
+                        <li>分类名称：<input type="text" />[必填]</li>
+                        <li>函数名称：<input type="text" />[必填](JS函数名称必须为英文)</li>
+                        <li><a>添加模块</a></li>
+                    </ul>
+                </form>
+            </div>
+            <div id="module-med">
+                <form>
+                <ul>
+                    <li>分类名称：<input type="text" />(左侧点击选择)</li>
+                    <li>上级类别：<input readonly="readonly" type="text" /><a>设为顶级类</a>(左侧点击选择)</li>
+                    <li>函数名称：<input type="text" />[必填](JS函数名称必须为英文)</li>
+                    <li><a>修改模块</a></li>
+                </ul>
+                </form>
+            </div>
+            <div id="module-del">
+                <form>
+                <ul>
+                    <li>当前编号：<label></label>(左侧点击选择)</li>
+                    <li>分类名称：<label></label></li>
+                    <li><a>删除模块</a></li>
+                </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="br"></div>
+</div>
+
+<div class="mod-ad-channel">
+  <ul>
+    <li class="tit">
+      <label class="lab">渠道名称：</label>
+      <input type="text" />
+    </li>
+    <li class="url">
+      <label class="lab">广告网址：</label>
+      <span>渠道创建完后显示</span>
+    </li>
+  </ul>
+
+</div>
+
+<div class="mod-seo">
+  <ul class="urls">
+    <li class="time">
+      <label class="lab">选择日期：</label>
+      <input type="text" />
+      <button>开始推送</button>
+    </li>
+    <li class="over"></li>
+  </ul>
+</div>
+
+
+
+</body>
+</html>

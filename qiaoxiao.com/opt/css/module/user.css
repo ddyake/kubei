@@ -1,0 +1,28 @@
+.mod-user li {
+  line-height: 30px
+}
+.mod-user input[type=text]{
+  width:250px;
+  padding:0;
+  margin:0;
+  height: 20px;
+  line-height: 20px
+}
+
+.mod-user label.lab{display: inline-block;width:100px;}
+.mod-user span.ctime,
+.mod-user span.times,
+.mod-user span.rip,
+.mod-user span.ip,
+.mod-user span.name,
+.mod-user a.btn{
+  display:inline-block;_display:inline;_zoom:1;
+  height:20px;line-height:20px;
+  width:100px;
+}
+.mod-user a.btn{
+  width:auto;
+  height:18px;
+  line-height:18px;
+  padding:2px 4px;margin:0;
+}
